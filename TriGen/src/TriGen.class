@@ -1,0 +1,26 @@
+public class TriGen {
+	public static void main(String[] args){
+		
+		//if(generateTriangle(size) != 0){ System.out.print("There was an error.");}
+		
+		genTri(5);
+	}
+
+	private static void genTri(int size){
+		
+		for(int a = 1; a <= size; a++){
+			for(int dummy; dummy <= a; dummy++){
+				
+				System.out.print(dummy);
+			}
+			
+			System.out.print("\n");
+		}
+	}
+
+	/*private static int generateTriangle(int size){
+		if(!(size > 0)){ return 1 }
+		
+		
+	}*/
+}
